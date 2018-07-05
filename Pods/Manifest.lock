@@ -1,0 +1,71 @@
+PODS:
+  - Agrume (5.0.3):
+    - SwiftyGif
+  - Bolts (1.9.0):
+    - Bolts/AppLinks (= 1.9.0)
+    - Bolts/Tasks (= 1.9.0)
+  - Bolts/AppLinks (1.9.0):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.9.0)
+  - ChameleonFramework/Default (2.1.0)
+  - ChameleonFramework/Swift (2.1.0):
+    - ChameleonFramework/Default
+  - FBSDKCoreKit (4.30.0):
+    - Bolts (~> 1.7)
+  - FBSDKLoginKit (4.30.0):
+    - FBSDKCoreKit
+  - Kingfisher (4.6.2)
+  - PromiseKit (6.1.0):
+    - PromiseKit/CorePromise (= 6.1.0)
+    - PromiseKit/Foundation (= 6.1.0)
+    - PromiseKit/UIKit (= 6.1.0)
+  - PromiseKit/CorePromise (6.1.0)
+  - PromiseKit/Foundation (6.1.0):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (6.1.0):
+    - PromiseKit/CorePromise
+  - SnapKit (4.0.0)
+  - SwiftyGif (4.1.0)
+
+DEPENDENCIES:
+  - Agrume
+  - ChameleonFramework/Swift (from `https://github.com/ViccAlexander/Chameleon.git`)
+  - FBSDKLoginKit
+  - Kingfisher
+  - PromiseKit
+  - SnapKit (~> 4.0.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Agrume
+    - Bolts
+    - FBSDKCoreKit
+    - FBSDKLoginKit
+    - Kingfisher
+    - PromiseKit
+    - SnapKit
+    - SwiftyGif
+
+EXTERNAL SOURCES:
+  ChameleonFramework:
+    :git: https://github.com/ViccAlexander/Chameleon.git
+
+CHECKOUT OPTIONS:
+  ChameleonFramework:
+    :commit: 6dd284bde21ea2e7f9fd89bc36f40df16e16369d
+    :git: https://github.com/ViccAlexander/Chameleon.git
+
+SPEC CHECKSUMS:
+  Agrume: ac7753b6b502a53f6ecc49313061df988d4728d0
+  Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
+  ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
+  FBSDKCoreKit: 7c4bba2877781a131ab5d54c0a78c405d4307b62
+  FBSDKLoginKit: fe7a7e82373dc5daad92e1623219e86224ab1fb1
+  Kingfisher: 55b9c395bf8d3949676ad3861111923990ab68cf
+  PromiseKit: cf84274e6d2bec1d42e21ade146645752b0b7bed
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+  SwiftyGif: d36c6dfb52e2ca1e48fe349d225f50ec4123ec85
+
+PODFILE CHECKSUM: f136781208cd693d5bd1a4de37366bde4710ad25
+
+COCOAPODS: 1.5.2

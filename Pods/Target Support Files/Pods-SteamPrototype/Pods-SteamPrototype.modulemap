@@ -1,0 +1,6 @@
+framework module Pods_SteamPrototype {
+  umbrella header "Pods-SteamPrototype-umbrella.h"
+
+  export *
+  module * { export * }
+}
